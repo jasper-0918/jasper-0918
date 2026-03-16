@@ -40,7 +40,7 @@ I'm a Computer Engineering graduate passionate about embedded systems, AI, and b
 
 ## 📌 Featured Projects
 
-### [♻️ Plastic Bottle Classifier](https://github.com/yourusername/plastic-bottle-classifier)
+### [♻️ Automatic Plastic Bottle Segregation System](https://github.com/yourusername/plastic-bottle-classifier)
 **Thesis project** – An edge AI system that classifies 5 types of plastic bottles using a Raspberry Pi 5, ultrasonic sensors, microwave sensor, servo motors, and a TensorFlow Lite model.  
 - Built and trained a CNN with TensorFlow (transfer learning on MobileNet).  
 - Integrated model with Raspberry Pi and sensor suite.  

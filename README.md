@@ -2,7 +2,7 @@
 
 I'm a Computer Engineering graduate passionate about embedded systems, AI, and building intelligent hardware-software solutions.
 
-- 🔭 I recently completed my thesis: **Automatic Plastic Bottle Segregation System** – an edge AI system that classifies 5 types of plastic bottles using a Raspberry Pi 5, sensors, and a custom-trained TensorFlow model.
+- 🔭 I recently completed my thesis: **Automatic Plastic Bottle Segregation System** – an edge impulse AI system that classifies 5 types of plastic bottles using a Raspberry Pi 5, sensors, and a custom-trained TensorFlow model.
 - 🌱 I’m currently deepening my knowledge of **assembly language** and **bare-metal programming** on microcontrollers.
 - 👯 I’m looking to collaborate on embedded AI, IoT, or automation projects.
 - 📫 How to reach me: [jasperjohn.paitan@lsu.edu.ph](mailto:jasperjohn.paitan@lsu.edu.ph) | [LinkedIn](https://www.linkedin.com/in/jasper-john-paitan-11641337b)
@@ -18,7 +18,7 @@ I'm a Computer Engineering graduate passionate about embedded systems, AI, and b
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
 ![C#](https://img.shields.io/badge/-C%23-239120?style=flat&logo=c-sharp&logoColor=white)
 ![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=white)
-![Assembly](https://img.shields.io/badge/-Assembly-525252?style=flat&logo=assemblyscript&logoColor=white) *(beginner)*
+![Assembly](https://img.shields.io/badge/-Assembly-525252?style=flat&logo=assemblyscript&logoColor=white)
 
 **AI/ML:**  
 ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
@@ -41,7 +41,7 @@ I'm a Computer Engineering graduate passionate about embedded systems, AI, and b
 ## 📌 Featured Projects
 
 ### [♻️ Automatic Plastic Bottle Segregation System](https://github.com/yourusername/plastic-bottle-classifier)
-**Thesis project** – An edge AI system that classifies 5 types of plastic bottles using a Raspberry Pi 5, ultrasonic sensors, microwave sensor, servo motors, and a TensorFlow Lite model.  
+**Thesis project** – An edge impulse AI system that classifies 5 types of plastic bottles using a Raspberry Pi 5, ultrasonic sensors, microwave sensor, servo motors, and a TensorFlow Lite model.  
 - Built and trained a CNN with TensorFlow (transfer learning on MobileNet).  
 - Integrated model with Raspberry Pi and sensor suite.  
 - Achieved real-time classification with >90% accuracy.  

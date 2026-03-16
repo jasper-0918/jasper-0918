@@ -1,4 +1,4 @@
-# Hi there, I'm [Jasper John Paitan] 👋
+# Hi there, I'm Jasper John Paitan 👋
 
 I'm a Computer Engineering graduate passionate about embedded systems, AI, and building intelligent hardware-software solutions.
 

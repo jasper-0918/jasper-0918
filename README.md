@@ -53,6 +53,12 @@ A minimal assembly program for STM32 that blinks an LED by directly manipulating
 - Demonstrated understanding of memory-mapped I/O and MCU architecture.  
 *Tech: ARM Assembly, STM32, Makefile.*
 
+### [🤖 AI Document Organizer](https://github.com/jasper-0918/ai-document-organizer) 
+A Python tool that automatically sorts files in a folder using NLP and computer vision.   
+- Uses Hugging Face Transformers for text classification and OpenCV for image recognition.   
+- Schedules periodic scans with schedule library.   
+*Tech: Python, Transformers, OpenCV, SQLite.*
+
 ## 📊 GitHub Stats
 
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=jasper-0918&show_icons=true&theme=radical)

@@ -47,6 +47,12 @@ I'm a Computer Engineering graduate passionate about embedded systems, AI, and b
 - Achieved real-time classification with >90% accuracy.  
 *Tech: Python, TensorFlow, Raspberry Pi, sensors, servo motors.*
 
+### [💡 Bare-Metal LED Blinker (ARM Assembly)](https://github.com/jasper-0918/arm-assembly-blink)
+A minimal assembly program for STM32 that blinks an LED by directly manipulating registers – no C runtime.  
+- Wrote startup code and GPIO configuration in ARM Cortex-M assembly.  
+- Demonstrated understanding of memory-mapped I/O and MCU architecture.  
+*Tech: ARM Assembly, STM32, Makefile.*
+
 ## 📊 GitHub Stats
 
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=jasper-0918&show_icons=true&theme=radical)

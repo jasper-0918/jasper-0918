@@ -5,7 +5,7 @@ I'm a Computer Engineering graduate passionate about embedded systems, AI, and b
 - 🔭 I recently completed my thesis: **Automatic Plastic Bottle Segregation System** – an edge AI system that classifies 5 types of plastic bottles using a Raspberry Pi 5, sensors, and a custom-trained TensorFlow model.
 - 🌱 I’m currently deepening my knowledge of **assembly language** and **bare-metal programming** on microcontrollers.
 - 👯 I’m looking to collaborate on embedded AI, IoT, or automation projects.
-- 📫 How to reach me: [jasperjohn.paitan@lsu.edu.ph](mailto:jasperjohn.paitan@lsu.edu.ph) | [LinkedIn](www.linkedin.com/in/jasper-john-paitan-11641337b)
+- 📫 How to reach me: [jasperjohn.paitan@lsu.edu.ph](mailto:jasperjohn.paitan@lsu.edu.ph) | [LinkedIn](https://www.linkedin.com/in/jasper-john-paitan-11641337b)
 - ⚡ Fun fact: I love combining hardware tinkering with machine learning.
 
 ---

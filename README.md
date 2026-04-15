@@ -5,7 +5,7 @@ I build Python automation systems that eliminate repetitive tasks, reduce manual
 and help businesses run on autopilot. From autonomous job hunting agents to 
 intelligent file management systems — I turn manual workflows into hands-free processes.
 
-📍 Philippines &nbsp;|&nbsp; 📧 jasperjohn.paitan@lsu.edu.ph &nbsp;|&nbsp; 
+📍 Philippines &nbsp;|&nbsp; 📧 jasper.paitan0918@gmail.com &nbsp;|&nbsp; 
 [LinkedIn](https://www.linkedin.com/in/jasper-john-paitan-11641337b) &nbsp;|&nbsp; 
 [Credly Certifications](https://www.credly.com/users/jasper-john-paitan)
 
@@ -97,5 +97,5 @@ and don't break under real-world conditions.
 I'm open to automation VA roles, Python automation contracts, and workflow consulting.
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jasper-john-paitan-11641337b)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:jasperjohn.paitan@lsu.edu.ph)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:jasper.paitan0918@gmail.com)
 [![Credly](https://img.shields.io/badge/-Certifications-FF6B00?style=flat&logo=credly&logoColor=white)](https://www.credly.com/users/jasper-john-paitan)

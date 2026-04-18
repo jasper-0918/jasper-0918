@@ -1,101 +1,64 @@
-# Hi, I'm Jasper John Paitan 👋
-### Python Automation Specialist | Workflow Automation | AI-Powered Tools
+# JASPER JOHN PAITAN
 
-I build Python automation systems that eliminate repetitive tasks, reduce manual work, 
-and help businesses run on autopilot. From autonomous job hunting agents to 
-intelligent file management systems — I turn manual workflows into hands-free processes.
+**AI Developer & Software Engineer** · Ozamiz City, Philippines
 
-📍 Philippines &nbsp;|&nbsp; 📧 jasper.paitan0918@gmail.com &nbsp;|&nbsp; 
-[LinkedIn](https://www.linkedin.com/in/jasper-john-paitan-11641337b) &nbsp;|&nbsp; 
-[Credly Certifications](https://www.credly.com/users/jasper-john-paitan)
+Computer Engineering graduate building intelligent systems at the intersection of AI, automation, and software engineering — from on-device machine learning to Python automation pipelines.
 
----
-
-## 🤖 What I Automate
-
-- **Business Workflows** — end-to-end process automation using Python
-- **Document & File Management** — intelligent sorting, classification, and organization
-- **Job & Outreach Pipelines** — automated sourcing, screening, and communication
-- **AI-Assisted Tasks** — integrating LLMs and computer vision into real workflows
+[![Portfolio](https://img.shields.io/badge/Portfolio-jasper--0918.github.io-b5ff6d?style=flat-square&labelColor=0a0a0b&color=b5ff6d)](https://jasper-0918.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-jasper--john--paitan-0a0a0b?style=flat-square&logo=linkedin&logoColor=white&labelColor=0a0a0b&color=b5ff6d)](https://linkedin.com/in/jasper-john-paitan-11641337b)
+[![Credly](https://img.shields.io/badge/Certifications-Credly-b5ff6d?style=flat-square&labelColor=0a0a0b&color=b5ff6d)](https://credly.com/users/jasper-john-paitan)
+[![Email](https://img.shields.io/badge/Email-jasper.paitan0918@gmail.com-b5ff6d?style=flat-square&labelColor=0a0a0b&color=b5ff6d)](mailto:jasper.paitan0918@gmail.com)
 
 ---
 
-## 🚀 Featured Projects
+## Projects
 
-### [🤖 Autonomous Job Hunting Bot](https://github.com/jasper-0918/job-bot)
-> *Fully automated job application pipeline — finds listings, detects scams, writes 
-> cover letters, sends applications, and monitors inbox replies.*
+### Automatic Plastic Bottle Segregation System
+`Thesis · Apr 2025 – Nov 2025`
 
-- Scrapes and filters job listings automatically
-- Uses AI to flag suspicious/scam postings before applying
-- Generates personalized cover letters per listing
-- Monitors inbox and handles follow-up — zero manual input required
+Real-time edge AI system that classifies and physically sorts plastic bottles (PET, HDPE, LDPE, PP, UNCLASSIFIED) using a CNN trained with MobileNet transfer learning. Deployed on a Raspberry Pi 5 — model runs fully on-device with no cloud dependency. Classification output drives mechanical actuators that automate the physical sorting process.
 
-**Tech:** Python, AI APIs, email automation &nbsp;|&nbsp; 
-▶️ *[Demo video coming soon]*
+`Python` `TensorFlow` `TF Lite` `Edge Impulse` `OpenCV` `Raspberry Pi 5` `On-device ML`
 
 ---
 
-### [🆓 Job AI Agent (Free Tools Only)](https://github.com/jasper-0918/job-ai-agent-free)
-> *Same autonomous job hunting pipeline — rebuilt entirely with free, 
-> no-credit-card-required tools. Accessible for any budget.*
+### AI Document Organizer
+`Personal · 2026`
 
-- Identical functionality to job-bot with zero paid API dependencies
-- Proves real-world automation can run on open-source and free-tier tools
+Python CLI tool that auto-classifies and organises files using zero-shot NLP (`facebook/bart-large-mnli`) and OpenCV image scene recognition — no training data or manual rules required. Includes perceptual hashing for duplicate detection, a SQLite scan history layer, and `--dry-run` / `--watch` modes for hands-free recurring execution.
 
-**Tech:** Python, free-tier APIs &nbsp;|&nbsp; 
-▶️ *[Demo video coming soon]*
+`Python` `HuggingFace Transformers` `OpenCV` `SQLite` `Zero-shot NLP` `CLI`
 
----
-
-### [📁 AI Document Organizer](https://github.com/jasper-0918/ai-document-organizer)
-> *Automatically sorts files in a folder using NLP and computer vision — 
-> no manual filing ever again.*
-
-- Classifies documents by content using Hugging Face Transformers
-- Recognizes image types with OpenCV
-- Runs on a schedule — fully hands-free once deployed
-
-**Tech:** Python, Transformers, OpenCV, SQLite &nbsp;|&nbsp; 
-▶️ *[Demo video coming soon]*
+→ [github.com/jasper-0918/ai-document-organizer](https://github.com/jasper-0918/ai-document-organizer)
 
 ---
 
-### [♻️ AI Plastic Bottle Segregation System](https://github.com/jasper-0918/jasper-0918) *(Thesis)*
-> *Edge AI system that classifies 5 types of plastic bottles in real-time 
-> using a Raspberry Pi 5 — demonstrates full automation of a physical process.*
+## Stack
 
-- Trained CNN model with TensorFlow (MobileNet transfer learning)
-- Integrated with sensors and servo motors for real-world actuation
-- Achieved >90% classification accuracy at the edge
-
-**Tech:** Python, TensorFlow Lite, Edge Impulse, Raspberry Pi, OpenCV
-
----
-
-## 🛠️ Automation Stack
-
-| Category | Tools |
+| Area | Tools |
 |---|---|
-| **Languages** | Python, C, C++ |
-| **AI/ML** | TensorFlow, TensorFlow Lite, OpenCV, Hugging Face |
-| **Automation** | Python scripting, task scheduling, email automation |
-| **Systems** | Linux, Git, Raspberry Pi |
+| **Languages** | Python · C · C++ · C# · JavaScript · Assembly |
+| **AI / ML** | TensorFlow · TF Lite · Edge Impulse · HuggingFace · OpenCV · Transfer Learning |
+| **Data** | pandas · numpy · matplotlib · seaborn · MySQL · SQLite |
+| **Tools** | Git · GitHub · VS Code · Linux · Raspberry Pi · Embedded Systems |
 
 ---
 
-## 🎓 Background
+## Certifications
 
-**Computer Engineering Graduate** — strong foundation in how systems actually work 
-at the hardware level. This means my automation scripts are reliable, efficient, 
-and don't break under real-world conditions.
+- **Google Cloud Cybersecurity Certificate** — Google Cloud · Feb 2026
+- **Junior Cybersecurity Analyst Career Path** — Cisco Networking Academy · Mar 2026
+- **Machining NC II** — TESDA · 2021
 
 ---
 
-## 📬 Let's Work Together
+## Experience
 
-I'm open to automation VA roles, Python automation contracts, and workflow consulting.
+**Software Development Intern** · Benpos Systems · Feb – Apr 2026
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jasper-john-paitan-11641337b)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:jasper.paitan0918@gmail.com)
-[![Credly](https://img.shields.io/badge/-Certifications-FF6B00?style=flat&logo=credly&logoColor=white)](https://www.credly.com/users/jasper-john-paitan)
+Maintained proprietary system software, resolved defects, coordinated client deployments, and produced technical documentation across each update cycle.
+
+---
+
+*Open to AI/ML projects, software engineering roles, and automation contracts.*  
+*→ [jasper-0918.github.io](https://jasper-0918.github.io)*

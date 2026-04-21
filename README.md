@@ -1,138 +1,123 @@
-# Hi there, I'm Jasper John Paitan 👋
+<div align="center">
 
-I'm a Computer Engineering graduate passionate about **AI automation**, **workflow tools**, **embedded systems**, and building intelligent solutions that work with minimal human intervention.
+# Jasper John Paitan
 
-- 🔭 Recently completed my thesis: **Automatic Plastic Bottle Segregation System** — an Edge Impulse AI system that classifies 5 types of plastic bottles using a Raspberry Pi 5, sensors, and a custom-trained TensorFlow model.
-- 🤖 Built a **fully autonomous Job AI Agent** — scrapes job boards, evaluates listings with AI, detects scams, writes cover letters, sends applications, and monitors Gmail — all running on its own.
-- 🌱 Currently deepening my knowledge in **reverse engineering**, **cybersecurity research**, and **advanced automation workflows**.
-- 👯 Open to collaborate on AI agents, automation pipelines, embedded systems, or IoT projects.
-- 💼 Available for remote work: Python automation, workflow automation (Zapier / n8n / Make), AI tools, technical VA.
-- 📫 Reach me: [jasperjohn.paitan@lsu.edu.ph](mailto:jasperjohn.paitan@lsu.edu.ph) · [LinkedIn](https://www.linkedin.com/in/jasper-john-paitan-11641337b) · [Credly](https://www.credly.com/users/jasper-john-paitan)
-- ⚡ Fun fact: I love combining hardware tinkering with machine learning — and automating everything I do more than once.
+**Python Automation Specialist · Virtual Assistant · Automation VA**
 
----
+Ozamiz City, Philippines · Remote-Ready · Open to Work
 
-## 🛠️ Skills & Tools
+I build Python tools and no-code workflows that eliminate repetitive tasks — AI assistants, job pipelines, file automation, and end-to-end business workflows. Computer Engineering graduate with real project experience across the full automation stack.
 
-**Languages:**
+[![Portfolio](https://img.shields.io/badge/Portfolio-jasper--0918.github.io-b5ff6d?style=flat-square&labelColor=111214&color=b5ff6d)](https://jasper-0918.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-b5ff6d?style=flat-square&labelColor=111214&color=b5ff6d)](https://linkedin.com/in/jasper-john-paitan-11641337b)
+[![Email](https://img.shields.io/badge/Email-Hire%20Me-b5ff6d?style=flat-square&labelColor=111214&color=b5ff6d)](mailto:jasper.paitan0918@gmail.com)
+[![Credly](https://img.shields.io/badge/Certifications-Credly-b5ff6d?style=flat-square&labelColor=111214&color=b5ff6d)](https://credly.com/users/jasper-john-paitan)
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=cplusplus&logoColor=white)
-![C#](https://img.shields.io/badge/-C%23-239120?style=flat&logo=csharp&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Assembly](https://img.shields.io/badge/-Assembly-525252?style=flat&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=mysql&logoColor=white)
-
-**AI & Machine Learning:**
-
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![Edge Impulse](https://img.shields.io/badge/-Edge_Impulse-0097D4?style=flat&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/-HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
-![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
-![Groq](https://img.shields.io/badge/-Groq_AI-F55036?style=flat&logoColor=white)
-![pandas](https://img.shields.io/badge/-pandas-150458?style=flat&logo=pandas&logoColor=white)
-![numpy](https://img.shields.io/badge/-NumPy-013243?style=flat&logo=numpy&logoColor=white)
-
-**Workflow Automation & No-Code Tools:**
-
-![Zapier](https://img.shields.io/badge/-Zapier-FF4A00?style=flat&logo=zapier&logoColor=white)
-![n8n](https://img.shields.io/badge/-n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
-![Make](https://img.shields.io/badge/-Make-6D00CC?style=flat&logo=make&logoColor=white)
-![Playwright](https://img.shields.io/badge/-Playwright-2EAD33?style=flat&logo=playwright&logoColor=white)
-![BeautifulSoup](https://img.shields.io/badge/-BeautifulSoup-3776AB?style=flat&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-
-**Virtual Assistant & Productivity Tools:**
-
-![Google Workspace](https://img.shields.io/badge/-Google_Workspace-4285F4?style=flat&logo=google&logoColor=white)
-![Microsoft Office](https://img.shields.io/badge/-Microsoft_Office-D83B01?style=flat&logo=microsoftoffice&logoColor=white)
-![Notion](https://img.shields.io/badge/-Notion-000000?style=flat&logo=notion&logoColor=white)
-![Trello](https://img.shields.io/badge/-Trello-0052CC?style=flat&logo=trello&logoColor=white)
-![Slack](https://img.shields.io/badge/-Slack-4A154B?style=flat&logo=slack&logoColor=white)
-![Gmail](https://img.shields.io/badge/-Gmail_Automation-EA4335?style=flat&logo=gmail&logoColor=white)
-![Airtable](https://img.shields.io/badge/-Airtable-18BFFF?style=flat&logo=airtable&logoColor=white)
-
-**Cybersecurity:**
-
-![Kali Linux](https://img.shields.io/badge/-Kali_Linux-557C94?style=flat&logo=kalilinux&logoColor=white)
-![Wireshark](https://img.shields.io/badge/-Wireshark-1679A7?style=flat&logo=wireshark&logoColor=white)
-![Cisco](https://img.shields.io/badge/-Cisco_CyberOps-1BA0D7?style=flat&logo=cisco&logoColor=white)
-![Google Cloud Security](https://img.shields.io/badge/-Google_Cloud_Security-4285F4?style=flat&logo=googlecloud&logoColor=white)
-
-**Hardware & Embedded:**
-
-![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-A22846?style=flat&logo=raspberrypi&logoColor=white)
-![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=flat&logo=arduino&logoColor=white)
-
-**Dev Tools:**
-
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/-VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
-![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
-![Railway](https://img.shields.io/badge/-Railway-0B0D0E?style=flat&logo=railway&logoColor=white)
+</div>
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Projects
 
-### 🤖 Job AI Agent — Autonomous Job Hunter
-> Scrapes Indeed PH, Jobstreet PH, and OnlineJobs.ph. Uses Groq/LLaMA AI to score every listing 0–100, detect scams, generate personalized cover letters, send email applications with CV attached, and monitor Gmail for interview responses. Deployed live on Railway with a web dashboard.
+**[⭐ Personal AI Virtual Assistant](https://github.com/jasper-0918/personal-ai-assistant)** · *Featured · 2026*
+> A fully local AI assistant that acts as a second version of you — manages email, searches and applies to jobs, maintains your GitHub portfolio, builds projects from a one-line description, and grows smarter the more you use it. Runs entirely on your own machine with no cloud, no subscriptions.
 
-`Python` `Groq AI` `FastAPI` `BeautifulSoup` `Gmail SMTP/IMAP` `SQLite` `Railway`
-
-🔗 [View Repository](https://github.com/jasper-0918/job-ai-agent-railway)
+`Python` `Ollama` `ChromaDB` `Streamlit` `Gmail IMAP/SMTP` `GitHub API` `RAG` `Local LLM`
 
 ---
 
-### 📁 AI Document Organizer
-> Python CLI tool that automatically classifies and organizes files using zero-shot NLP (HuggingFace `facebook/bart-large-mnli`) and OpenCV image recognition. Detects duplicates via perceptual hashing. Runs on a schedule.
+**[Autonomous Job Hunting Bot](https://github.com/jasper-0918/job-bot)** · *2026*
+> End-to-end job application pipeline — scrapes PH job boards, scores listings 0–100 with Claude AI, screens for scams, generates personalised cover letters, sends applications, and monitors inbox replies. Zero manual input once running.
 
-`Python` `HuggingFace Transformers` `OpenCV` `SQLite` `schedule`
-
-🔗 [View Repository](https://github.com/jasper-0918/ai-doc-organizer)
+`Python` `Claude AI` `FastAPI` `Playwright` `Email Automation` `SQLite` `Web Dashboard`
 
 ---
 
-### ♻️ Automatic Plastic Bottle Segregation System *(Thesis 2025)*
-> Real-time computer vision system that classifies plastic bottles (PET, HDPE, LDPE, PP, UNCLASSIFIED) using a model trained on Edge Impulse + TensorFlow. Integrated with mechanical sorting actuators controlled by classification output to automate physical waste segregation.
+**[Job AI Agent — Free Tools Only](https://github.com/jasper-0918/job-ai-agent-free)** · *2026*
+> Same autonomous pipeline rebuilt entirely with free, open-source, no-credit-card-required tools. Identical functionality, zero paid dependencies — proves real automation works on any budget.
 
-`TensorFlow` `Edge Impulse` `OpenCV` `Raspberry Pi` `Python` `Embedded Systems`
-
----
-
-## 🏆 Certifications
-
-| Certification | Issuer | Year |
-|---|---|---|
-| Google Cloud Cybersecurity Certificate | Google Cloud | 2026 |
-| Junior Cybersecurity Analyst Career Path | Cisco Networking Academy | 2026 |
-| Machining NC II | TESDA | 2021 |
+`Python` `Free-tier APIs` `Open-source LLMs` `Web Scraping` `Email Automation`
 
 ---
 
-## 💼 What I Can Help You With
+**[AI Document Organizer](https://github.com/jasper-0918/ai-document-organizer)** · *2026*
+> Python CLI tool that auto-classifies and organises files using zero-shot NLP and OpenCV image recognition. No manual labeling. Runs on a schedule — fully hands-free. Includes duplicate detection and SQLite scan history.
 
-| Service | Tools Used |
+`Python` `HuggingFace Transformers` `OpenCV` `SQLite` `Zero-shot NLP` `CLI`
+
+---
+
+**[Plastic Bottle Segregation System](https://github.com/jasper-0918/jasper-0918)** *(Thesis · 2025)*
+> Real-time computer vision system that classifies 5 plastic resin types and drives physical sorting actuators — fully on-device on a Raspberry Pi 5, no cloud required. MobileNet CNN, >90% accuracy.
+
+`Python` `TensorFlow Lite` `Edge Impulse` `OpenCV` `Raspberry Pi 5` `On-device ML`
+
+---
+
+## 🛠 Tools & Stack
+
+### No-Code Automation Platforms
+| Tool | Use |
 |---|---|
-| **Workflow automation** | Zapier · n8n · Make · Python scripts |
-| **AI-powered tools** | HuggingFace · Groq · LLaMA · OpenCV |
-| **Web scraping & data collection** | Playwright · BeautifulSoup · requests |
-| **Email automation** | Gmail API · SMTP/IMAP · Python |
-| **Technical VA support** | Google Workspace · Notion · Airtable · Trello |
-| **Python scripting** | FastAPI · SQLite · pandas · automation bots |
-| **Cybersecurity basics** | Kali Linux · Wireshark · vulnerability scanning |
-| **Embedded AI / IoT** | Raspberry Pi · Arduino · Edge Impulse · TensorFlow |
+| **n8n** | Self-hosted workflow automation, API chaining, webhook triggers |
+| **Make (Integromat)** | Visual automation builder, multi-app integrations, scenario scheduling |
+| **Zapier** | App-to-app automation, trigger-action workflows, business tool connections |
+| **IFTTT** | Simple conditional automations, IoT and app triggers |
+| **Pabbly Connect** | Budget-friendly automation, unlimited workflows, multi-step sequences |
+
+### Virtual Assistant Tools
+| Category | Tools |
+|---|---|
+| **Project Management** | Notion · Trello · Asana · ClickUp · Airtable · Monday.com |
+| **Communication** | Slack · Gmail · Google Calendar · Zoom · Microsoft Teams |
+| **Google Workspace** | Docs · Sheets · Drive · Forms · Meet · Sites |
+| **Microsoft Office** | Excel · Word · PowerPoint · Outlook |
+| **CRM (basic)** | HubSpot · Notion CRM |
+| **Research & Leads** | Web scraping · Lead sourcing · Data validation · LinkedIn |
+
+### Python & Development Stack
+```
+Automation     →  Python, Playwright, BeautifulSoup, email automation, task scheduling
+AI / NLP       →  Ollama (local LLM), HuggingFace Transformers, ChromaDB, RAG pipelines
+Computer Vision →  OpenCV, TensorFlow Lite, Edge Impulse, on-device ML
+Data & Storage  →  SQLite, MySQL, pandas, numpy, CSV / Excel processing
+APIs & Web      →  FastAPI, REST APIs, GitHub API, Gmail IMAP/SMTP, webhooks
+Languages       →  Python (primary) · C · C++ · JavaScript · Assembly
+DevTools        →  Git · GitHub · VS Code · Linux · Raspberry Pi
+```
 
 ---
 
-## 📊 GitHub Stats
+## 📋 What I Can Do For You
 
-![Jasper's GitHub Stats](https://github-readme-stats.vercel.app/api?username=jasper-0918&show_icons=true&theme=dark&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jasper-0918&layout=compact&theme=dark&hide_border=true)
+- **Workflow automation** — connect your apps, automate repetitive sequences, eliminate manual steps
+- **Email & inbox management** — sorting, drafting, auto-replies, follow-up tracking
+- **Data entry & research** — web research, lead generation, spreadsheet management, report building
+- **File & document management** — AI-powered organisation, classification, deduplication
+- **Python scripting** — custom automation tools built exactly for your workflow
+- **No-code automation** — Zapier / Make / n8n flows that connect your existing tools
+- **AI-assisted tasks** — integrating free AI models for classification, summarisation, and content drafting
 
 ---
 
-*Open to remote opportunities — Python automation · AI tools · workflow automation · technical VA · cybersecurity*
+## 🎓 Background
+
+**Software Development Intern** · Benpos Systems · Feb – Apr 2026
+Maintained live client software, resolved defects, coordinated deployments, produced technical documentation.
+
+**BS Computer Engineering** · La Salle University Ozamiz · 2022 – Present
+
+**Certifications**
+- 🔐 Google Cloud Cybersecurity Certificate · Feb 2026
+- 🔐 Cisco Junior Cybersecurity Analyst Career Path · Mar 2026
+- 🔧 TESDA Machining NC II · 2021
+
+---
+
+<div align="center">
+
+*Open to automation VA roles, Python scripting contracts, and remote admin support.*
+
+**[View Portfolio →](https://jasper-0918.github.io)**
+
+</div>

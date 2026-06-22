@@ -1,123 +1,96 @@
-<div align="center">
+# Hi, I'm Jasper John Paitan 👋
+### Computer Engineer | Python Automation Developer | AI Integration
 
-# Jasper John Paitan
+I build Python automation systems that eliminate repetitive tasks and turn manual workflows
+into hands-free processes. From autonomous job-hunting agents to intelligent file management
+systems — I integrate AI into real, working software.
 
-**Python Automation Specialist · Virtual Assistant · Automation VA**
-
-Ozamiz City, Philippines · Remote-Ready · Open to Work
-
-I build Python tools and no-code workflows that eliminate repetitive tasks — AI assistants, job pipelines, file automation, and end-to-end business workflows. Computer Engineering graduate with real project experience across the full automation stack.
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-jasper--0918.github.io-b5ff6d?style=flat-square&labelColor=111214&color=b5ff6d)](https://jasper-0918.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-b5ff6d?style=flat-square&labelColor=111214&color=b5ff6d)](https://linkedin.com/in/jasper-john-paitan-11641337b)
-[![Email](https://img.shields.io/badge/Email-Hire%20Me-b5ff6d?style=flat-square&labelColor=111214&color=b5ff6d)](mailto:jasper.paitan0918@gmail.com)
-[![Credly](https://img.shields.io/badge/Certifications-Credly-b5ff6d?style=flat-square&labelColor=111214&color=b5ff6d)](https://credly.com/users/jasper-john-paitan)
-
-</div>
+🎓 Computer Engineering Graduate, La Salle University – Ozamiz (2026)
+📍 Philippines &nbsp;|&nbsp; 🌐 [Portfolio](https://jasper-0918.github.io/) &nbsp;|&nbsp;
+📧 jasper.paitan0918@gmail.com &nbsp;|&nbsp;
+[LinkedIn](https://www.linkedin.com/in/jasper-john-paitan-11641337b) &nbsp;|&nbsp;
+[Credly Certifications](https://www.credly.com/users/jasper-john-paitan)
 
 ---
 
-## 🚀 Projects
+## 🤖 What I Build
 
-**[⭐ Personal AI Virtual Assistant](https://github.com/jasper-0918/personal-ai-assistant)** · *Featured · 2026*
-> A fully local AI assistant that acts as a second version of you — manages email, searches and applies to jobs, maintains your GitHub portfolio, builds projects from a one-line description, and grows smarter the more you use it. Runs entirely on your own machine with no cloud, no subscriptions.
-
-`Python` `Ollama` `ChromaDB` `Streamlit` `Gmail IMAP/SMTP` `GitHub API` `RAG` `Local LLM`
-
----
-
-**[Autonomous Job Hunting Bot](https://github.com/jasper-0918/job-bot)** · *2026*
-> End-to-end job application pipeline — scrapes PH job boards, scores listings 0–100 with Claude AI, screens for scams, generates personalised cover letters, sends applications, and monitors inbox replies. Zero manual input once running.
-
-`Python` `Claude AI` `FastAPI` `Playwright` `Email Automation` `SQLite` `Web Dashboard`
+- **Business Workflow Automation** — end-to-end process automation using Python
+- **AI-Integrated Systems** — LLM APIs woven into real, functioning applications
+- **Document & File Management** — intelligent sorting, classification, and organization
+- **Applied Machine Learning** — computer vision and on-device inference
 
 ---
 
-**[Job AI Agent — Free Tools Only](https://github.com/jasper-0918/job-ai-agent-free)** · *2026*
-> Same autonomous pipeline rebuilt entirely with free, open-source, no-credit-card-required tools. Identical functionality, zero paid dependencies — proves real automation works on any budget.
+## 🚀 Featured Projects
 
-`Python` `Free-tier APIs` `Open-source LLMs` `Web Scraping` `Email Automation`
+### [🤖 Job AI Agent — Autonomous Job Hunting Pipeline](https://github.com/jasper-0918/job-ai-agent-free)
+> *Fully automated job application system — scrapes listings, screens for scams using AI,
+> writes personalized cover letters, sends applications, and monitors inbox replies.*
 
----
+- Bypasses bot detection on job sites using Playwright stealth browser automation
+- Two-layer scam detection: keyword filtering + LLM deep analysis
+- AI-generated, personalized cover letters per application — not templates
+- Tiered decision engine (auto-apply / human review / reject) based on AI fit scoring
+- FastAPI backend with a live web dashboard
+- **Result:** cuts daily job search time from 2–4 hours to under 10 minutes
 
-**[AI Document Organizer](https://github.com/jasper-0918/ai-document-organizer)** · *2026*
-> Python CLI tool that auto-classifies and organises files using zero-shot NLP and OpenCV image recognition. No manual labeling. Runs on a schedule — fully hands-free. Includes duplicate detection and SQLite scan history.
-
-`Python` `HuggingFace Transformers` `OpenCV` `SQLite` `Zero-shot NLP` `CLI`
-
----
-
-**[Plastic Bottle Segregation System](https://github.com/jasper-0918/jasper-0918)** *(Thesis · 2025)*
-> Real-time computer vision system that classifies 5 plastic resin types and drives physical sorting actuators — fully on-device on a Raspberry Pi 5, no cloud required. MobileNet CNN, >90% accuracy.
-
-`Python` `TensorFlow Lite` `Edge Impulse` `OpenCV` `Raspberry Pi 5` `On-device ML`
+**Tech:** Python, Playwright, FastAPI, SQLite, Groq LLM API, Gmail SMTP/IMAP
 
 ---
 
-## 🛠 Tools & Stack
+### [📁 AI Document Organizer](https://github.com/jasper-0918/ai-document-organizer)
+> *Automatically sorts files in a folder using NLP and computer vision —
+> no manual filing required.*
 
-### No-Code Automation Platforms
-| Tool | Use |
-|---|---|
-| **n8n** | Self-hosted workflow automation, API chaining, webhook triggers |
-| **Make (Integromat)** | Visual automation builder, multi-app integrations, scenario scheduling |
-| **Zapier** | App-to-app automation, trigger-action workflows, business tool connections |
-| **IFTTT** | Simple conditional automations, IoT and app triggers |
-| **Pabbly Connect** | Budget-friendly automation, unlimited workflows, multi-step sequences |
+- Classifies documents by content using HuggingFace zero-shot text classification
+- Recognizes image types using OpenCV (photos, screenshots, scans)
+- Duplicate detection via perceptual hashing
+- Runs hands-free on a schedule with dry-run and watch modes
 
-### Virtual Assistant Tools
+**Tech:** Python, HuggingFace Transformers, OpenCV, SQLite, schedule
+
+---
+
+### [♻️ Automatic Plastic Bottle Segregation System](https://github.com/jasper-0918/jasper-0918) *(Thesis)*
+> *Edge AI system that classifies 5 types of plastic bottles in real-time using
+> a Raspberry Pi 5 — demonstrating end-to-end automation of a physical process.*
+
+- Trained a CNN classifier (MobileNet transfer learning) using TensorFlow and Edge Impulse
+- Achieved greater than 90% classification accuracy at the edge — no cloud dependency
+- Integrated camera input, sensors, and servo-driven sorting actuators for full physical automation
+
+**Tech:** Python, TensorFlow, TensorFlow Lite, Edge Impulse, OpenCV, Raspberry Pi 5
+
+---
+
+## 🛠️ Tech Stack
+
 | Category | Tools |
 |---|---|
-| **Project Management** | Notion · Trello · Asana · ClickUp · Airtable · Monday.com |
-| **Communication** | Slack · Gmail · Google Calendar · Zoom · Microsoft Teams |
-| **Google Workspace** | Docs · Sheets · Drive · Forms · Meet · Sites |
-| **Microsoft Office** | Excel · Word · PowerPoint · Outlook |
-| **CRM (basic)** | HubSpot · Notion CRM |
-| **Research & Leads** | Web scraping · Lead sourcing · Data validation · LinkedIn |
-
-### Python & Development Stack
-```
-Automation     →  Python, Playwright, BeautifulSoup, email automation, task scheduling
-AI / NLP       →  Ollama (local LLM), HuggingFace Transformers, ChromaDB, RAG pipelines
-Computer Vision →  OpenCV, TensorFlow Lite, Edge Impulse, on-device ML
-Data & Storage  →  SQLite, MySQL, pandas, numpy, CSV / Excel processing
-APIs & Web      →  FastAPI, REST APIs, GitHub API, Gmail IMAP/SMTP, webhooks
-Languages       →  Python (primary) · C · C++ · JavaScript · Assembly
-DevTools        →  Git · GitHub · VS Code · Linux · Raspberry Pi
-```
-
----
-
-## 📋 What I Can Do For You
-
-- **Workflow automation** — connect your apps, automate repetitive sequences, eliminate manual steps
-- **Email & inbox management** — sorting, drafting, auto-replies, follow-up tracking
-- **Data entry & research** — web research, lead generation, spreadsheet management, report building
-- **File & document management** — AI-powered organisation, classification, deduplication
-- **Python scripting** — custom automation tools built exactly for your workflow
-- **No-code automation** — Zapier / Make / n8n flows that connect your existing tools
-- **AI-assisted tasks** — integrating free AI models for classification, summarisation, and content drafting
+| **Languages** | Python, C, C++, C#, JavaScript, SQL |
+| **AI/ML** | TensorFlow, TensorFlow Lite, Edge Impulse, HuggingFace Transformers, OpenCV |
+| **LLM Integration** | Groq API, Claude AI, OpenAI API, Prompt Engineering |
+| **Backend** | FastAPI, REST APIs, SQLite, MySQL |
+| **Automation** | Playwright, Web Scraping, Email Automation (SMTP/IMAP) |
+| **Tools** | Git, GitHub, VS Code, Linux, Raspberry Pi |
 
 ---
 
 ## 🎓 Background
 
-**Software Development Intern** · Benpos Systems · Feb – Apr 2026
-Maintained live client software, resolved defects, coordinated deployments, produced technical documentation.
-
-**BS Computer Engineering** · La Salle University Ozamiz · 2022 – Present
-
-**Certifications**
-- 🔐 Google Cloud Cybersecurity Certificate · Feb 2026
-- 🔐 Cisco Junior Cybersecurity Analyst Career Path · Mar 2026
-- 🔧 TESDA Machining NC II · 2021
+Computer Engineering graduate with a software development internship at Benpos Systems,
+where I handled system maintenance, defect resolution, and client deployments. Certified in
+cybersecurity through Google Cloud and Cisco. I build things that run in production, not demos.
 
 ---
 
-<div align="center">
+## 📬 Let's Work Together
 
-*Open to automation VA roles, Python scripting contracts, and remote admin support.*
+Open to remote roles and freelance work in Python automation, AI integration, and backend
+development.
 
-**[View Portfolio →](https://jasper-0918.github.io)**
-
-</div>
+[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat&logo=github&logoColor=white)](https://jasper-0918.github.io/)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jasper-john-paitan-11641337b)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:jasper.paitan0918@gmail.com)
+[![Credly](https://img.shields.io/badge/-Certifications-FF6B00?style=flat&logo=credly&logoColor=white)](https://www.credly.com/users/jasper-john-paitan)

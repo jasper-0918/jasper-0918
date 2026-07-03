@@ -25,7 +25,7 @@ systems — I integrate AI into real, working software.
 
 ## 🚀 Featured Projects
 
-### [⭐ RoScript AI Pro](https://github.com/jasper-0918/roscript-ai-pro)
+### [⭐ RoScript AI Pro](https://github.com/jasper-0918/RoScript-Pro)
 > *A single-file HTML AI coding assistant built for Roblox and game developers —
 > multi-provider LLM routing, live code preview, zero build step.*
 

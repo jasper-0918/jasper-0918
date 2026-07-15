@@ -1,13 +1,17 @@
 # Hi, I'm Jasper John Paitan 👋
-### Computer Engineer | Python Automation Developer | AI Integration
+### Agentic Engineer & AI Consultant · Computer Engineer who ships production AI systems
 
-I build Python automation systems that eliminate repetitive tasks and turn manual workflows
-into hands-free processes. From autonomous job-hunting agents to intelligent file management
-systems — I integrate AI into real, working software.
+I design and build **AI agents and autonomous pipelines** that replace hours of manual work with
+reliable, self-running software, multi-provider LLM routing, RAG, tool-calling, and local/on-device
+inference. I don't ship demos, I ship systems that run.
 
-🎓 Computer Engineering Graduate, La Salle University – Ozamiz (2026)
-📍 Philippines &nbsp;|&nbsp; 🌐 [Portfolio](https://jasper-0918.github.io/) &nbsp;|&nbsp;
-📧 jasper.paitan0918@gmail.com &nbsp;|&nbsp;
+**My edge:** a real engineering foundation, a Computer Engineering degree and systems work from
+Python to embedded C, so the agents I build are debugged, secured, and maintainable, not
+prompt-and-pray.
+
+🎓 Computer Engineering, La Salle University – Ozamiz (2026) &nbsp;|&nbsp; 📍 Philippines (UTC+8),
+**available for remote work worldwide**
+🌐 [Portfolio](https://jasper-0918.github.io/) &nbsp;|&nbsp; 📧 jasper.paitan0918@gmail.com &nbsp;|&nbsp;
 [LinkedIn](https://www.linkedin.com/in/jasper-john-paitan-11641337b) &nbsp;|&nbsp;
 [Credly Certifications](https://www.credly.com/users/jasper-john-paitan)
 
@@ -15,82 +19,84 @@ systems — I integrate AI into real, working software.
 
 ## 🤖 What I Build
 
-- **Business Workflow Automation** — end-to-end process automation using Python
-- **AI Agents & Coding Assistants** — multi-provider LLM routing, tool calling, agentic workflows
-- **AI-Integrated Systems** — LLM APIs woven into real, functioning applications
-- **Document & File Management** — intelligent sorting, classification, and organization
-- **Applied Machine Learning** — computer vision and on-device inference
+- **AI Agents & Autonomous Workflows** — agents that scrape, reason, decide, and act end-to-end, with tiered human-in-the-loop control
+- **Multi-Provider LLM Systems** — routing, failover, and key rotation across Groq, Claude, OpenAI, OpenRouter, and Cerebras for reliability and cost control
+- **RAG & Local AI** — private, on-device assistants (Ollama, ChromaDB) that keep data on the client's own machine
+- **Business Process Automation** — turning repetitive, multi-step operations into scheduled, hands-free pipelines
+- **Applied ML & Edge AI** — computer vision and real-time inference on-device (TensorFlow, Edge Impulse, Raspberry Pi)
+
+## 💼 How I Can Help (Consulting)
+
+I help teams find the highest-ROI workflow to automate, then **design, build, and hand over the agent
+that does it**, documented, reliable, and yours to keep. Available for **remote** consulting engagements
+and agentic / AI engineering roles.
+
+- Automate a manual, repetitive workflow (research, outreach, data entry, reporting) with an autonomous agent
+- Add an AI layer (chat, RAG, classification, routing) to an existing product or ops stack
+- Stand up a private, local LLM setup so sensitive data never leaves your infrastructure
 
 ---
 
 ## 🚀 Featured Projects
 
-### [⭐ RoScript AI Pro](https://github.com/jasper-0918/RoScript-Pro)
-> *A single-file HTML AI coding assistant built for Roblox and game developers —
-> multi-provider LLM routing, live code preview, zero build step.*
+### [⭐ RoScript AI Pro](https://github.com/jasper-0918/RoScript-Pro) — Multi-Provider AI Coding Agent
+> *A single-file, zero-backend AI coding assistant for game developers, engineered for reliability
+> across multiple LLM providers.*
 
-- Routes across Groq, OpenRouter, and Cerebras with automatic failover and API key rotation
-- Claude-style artifact panel renders generated code in a live preview, separate from the chat
-- Two-layer sandbox self-check validates every piece of code before it's shown as finished
-- Multi-round tool calling — the AI calls tools, reads results, and keeps reasoning in one turn
-- Integrated Tavily web search and AI image generation, all from one portable HTML file
-- Hardened against XSS with a global output-escaping pass
+- **Multi-provider routing with automatic failover and API-key rotation** across Groq, OpenRouter, and Cerebras, so a rate-limited or down provider never stops the session
+- Multi-round tool-calling: the agent calls tools, reads results, and keeps reasoning across steps in one turn
+- Two-layer validation pipeline (static analysis + independent AI self-review) that catches and corrects logic errors before code is shown
+- Integrated Tavily web search and AI image generation, hardened against XSS, all in one portable HTML file
 
 **Tech:** HTML/CSS/JavaScript, Groq API, OpenRouter, Cerebras, Tavily Search API
 
 ---
 
-### [🧠 Personal AI Virtual Assistant](https://github.com/jasper-0918/personal-ai-assistant)
-> *A fully local AI assistant that acts as a second version of you — manages email,
-> searches and applies to jobs, maintains your GitHub, and builds projects on request.*
+### [🧠 Personal AI Virtual Assistant](https://github.com/jasper-0918/personal-ai-assistant) — Fully Local Agent
+> *A private AI agent that runs entirely on-device, no cloud, no data leaving the machine.*
 
-- Runs entirely on-device with Ollama — no subscriptions, no cloud APIs, no data leaving your machine
-- Chat AI trained on your CV and notes via a RAG pipeline (ChromaDB + sentence-transformers)
+- Runs **fully local via Ollama** — no subscriptions, no cloud APIs, no data leaving your machine
+- RAG pipeline (ChromaDB + sentence-transformers) trained on personal notes to answer and draft in your own voice
 - Reads and summarizes Gmail, drafts replies in your tone, scans for interview responses
-- Scrapes job platforms, scores listings 0–100, generates cover letters, and applies automatically
-- Builds complete projects from a one-line description and produces a demo video with MoviePy
+- Autonomously searches and applies to jobs, and scaffolds complete working projects (plus a demo video) from a one-line prompt
 
 **Tech:** Python, Ollama, ChromaDB, Streamlit, Gmail IMAP/SMTP, GitHub REST API, RAG
 
 ---
 
-### [🤖 Autonomous Job Hunting Bot](https://github.com/jasper-0918/job-bot)
-> *Fully automated job application system — scrapes listings, screens for scams using AI,
-> writes personalized cover letters, sends applications, and monitors inbox replies.*
+### [🤖 Autonomous Job-Hunting Agent](https://github.com/jasper-0918/job-bot) — cut search from 2–4 hrs to under 10 min
+> *An end-to-end agent that scrapes, screens, applies, and monitors replies, with a human kept in control.*
 
-- Bypasses bot detection on job sites using Playwright stealth browser automation
-- Two-layer scam detection: keyword filtering + LLM deep analysis
-- AI-generated, personalized cover letters per application — not templates
-- Tiered decision engine (auto-apply / human review / reject) based on AI fit scoring
-- FastAPI backend with a live web dashboard
-- **Result:** cuts daily job search time from 2–4 hours to under 10 minutes
+- **Result: reduced daily job-search time from 2–4 hours to under 10 minutes**
+- Scrapes listings (Playwright), then scores each with an LLM for fit and **scam detection** (keyword filter + deep analysis)
+- **Tiered decision engine** (auto-apply / human review / reject) based on AI fit scoring
+- Generates a tailored cover letter per role, applies, and classifies inbox replies via IMAP; FastAPI dashboard for live monitoring
 
 **Tech:** Python, Playwright, FastAPI, SQLite, Claude AI, Gmail SMTP/IMAP
 
-> Also available as a [free, zero-cost rebuild](https://github.com/jasper-0918/job-ai-agent-free) using only open-source tools — same pipeline, no paid APIs.
+> Also rebuilt as a [free, zero-cost version](https://github.com/jasper-0918/job-ai-agent-free) using only open-source tools, same pipeline, no paid APIs, to prove cost-efficient automation on any budget.
 
 ---
 
-### [♻️ Automatic Plastic Bottle Segregation System](https://github.com/jasper-0918/jasper-0918) *(Thesis)*
-> *Edge AI system that classifies 5 types of plastic bottles in real-time using
-> a Raspberry Pi 5 — demonstrating end-to-end automation of a physical process.*
+### [♻️ Automatic Plastic Bottle Segregation System](https://github.com/jasper-0918/jasper-0918) — Edge AI *(Thesis)*
+> *A real-time computer-vision system that classifies and physically sorts plastics, running entirely
+> on-device with no cloud dependency.*
 
-- Trained a CNN classifier (MobileNet transfer learning) using TensorFlow and Edge Impulse
-- Achieved greater than 90% classification accuracy at the edge — no cloud dependency
-- Integrated camera input, sensors, and servo-driven sorting actuators for full physical automation
+- MobileNet CNN (TensorFlow + Edge Impulse) classifying 5 plastic resin types at **greater than 90% accuracy**
+- **Real-time inference fully on-device on a Raspberry Pi 5** — no cloud round-trip
+- Servo actuators driven by model output automate the physical sorting end-to-end
 
 **Tech:** Python, TensorFlow, TensorFlow Lite, Edge Impulse, OpenCV, Raspberry Pi 5
 
 ---
 
-### [📁 AI Document Organizer](https://github.com/jasper-0918/ai-document-organizer)
-> *Automatically sorts files in a folder using NLP and computer vision —
-> no manual filing required.*
+### [📁 AI Document Organizer](https://github.com/jasper-0918/ai-document-organizer) — hands-free file classification
+> *Auto-classifies and files documents using zero-shot NLP and computer vision, no training data,
+> no manual rules.*
 
-- Classifies documents by content using HuggingFace zero-shot text classification
-- Recognizes image types using OpenCV (photos, screenshots, scans)
-- Duplicate detection via perceptual hashing
-- Runs hands-free on a schedule with dry-run and watch modes
+- Classifies documents by content using zero-shot NLP (`facebook/bart-large-mnli`)
+- Recognizes image types with OpenCV scene recognition; perceptual-hash duplicate detection
+- Runs hands-free on a schedule with dry-run and watch modes; SQLite history prevents re-processing
 
 **Tech:** Python, HuggingFace Transformers, OpenCV, SQLite, schedule
 
@@ -100,27 +106,27 @@ systems — I integrate AI into real, working software.
 
 | Category | Tools |
 |---|---|
-| **Languages** | Python, C, C++, C#, JavaScript, SQL |
-| **AI/ML** | TensorFlow, TensorFlow Lite, Edge Impulse, HuggingFace Transformers, OpenCV |
-| **LLM Integration** | Groq API, Claude AI, OpenAI API, OpenRouter, Cerebras, Prompt Engineering |
-| **Backend** | FastAPI, REST APIs, SQLite, MySQL |
-| **Automation** | Playwright, Web Scraping, Email Automation (SMTP/IMAP) |
-| **Tools** | Git, GitHub, VS Code, Linux, Raspberry Pi |
+| **Agentic AI & LLM** | Tool-calling agents, multi-provider routing (Groq, Claude, OpenAI, OpenRouter, Cerebras), RAG (ChromaDB), prompt engineering, local LLM deployment (Ollama) |
+| **ML & Edge AI** | TensorFlow, TensorFlow Lite, Edge Impulse, HuggingFace Transformers, OpenCV, on-device inference |
+| **Backend & Automation** | FastAPI, REST APIs, Playwright, web scraping, email automation (SMTP/IMAP), task scheduling |
+| **Languages** | Python, C, C++, C#, JavaScript, Assembly, SQL |
+| **Data & Infra** | SQLite, MySQL, pandas, numpy, Git & GitHub, Linux, Raspberry Pi |
 
 ---
 
 ## 🎓 Background
 
-Computer Engineering graduate with a software development internship at Benpos Systems,
-where I handled system maintenance, defect resolution, and client deployments. Certified in
-cybersecurity through Google Cloud and Cisco. I build things that run in production, not demos.
+Computer Engineering graduate with a software development internship at **Benpos Systems** (system
+maintenance, defect resolution, client deployments), now doing hands-on automation and systems
+engineering in a live production environment. Certified in cybersecurity through **Google Cloud** and
+**Cisco**, a security-conscious foundation for the private, local-first AI I build. I build things that
+run in production, not demos.
 
 ---
 
 ## 📬 Let's Work Together
 
-Open to remote roles and freelance work in Python automation, AI integration, and backend
-development.
+Available for **remote** consulting engagements and agentic / AI engineering roles, worldwide.
 
 [![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat&logo=github&logoColor=white)](https://jasper-0918.github.io/)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jasper-john-paitan-11641337b)

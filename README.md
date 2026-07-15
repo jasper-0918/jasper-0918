@@ -117,10 +117,10 @@ and agentic / AI engineering roles.
 ## 🎓 Background
 
 Computer Engineering graduate with a software development internship at **Benpos Systems** (system
-maintenance, defect resolution, client deployments), now doing hands-on automation and systems
-engineering in a live production environment. Certified in cybersecurity through **Google Cloud** and
-**Cisco**, a security-conscious foundation for the private, local-first AI I build. I build things that
-run in production, not demos.
+maintenance, defect resolution, client deployments), and a growing portfolio of production AI agents
+and automation systems. Certified in cybersecurity through **Google Cloud** and **Cisco**, a
+security-conscious foundation for the private, local-first AI I build. I build things that run in
+production, not demos.
 
 ---
 

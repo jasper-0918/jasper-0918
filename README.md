@@ -34,6 +34,7 @@ and agentic / AI engineering roles.
 - Automate a manual, repetitive workflow (research, outreach, data entry, reporting) with an autonomous agent
 - Add an AI layer (chat, RAG, classification, routing) to an existing product or ops stack
 - Stand up a private, local LLM setup so sensitive data never leaves your infrastructure
+- Build your small business a **premium website wired for lead response** — form to instant reply to follow-up, so no inquiry goes cold
 
 ---
 
@@ -49,6 +50,18 @@ and agentic / AI engineering roles.
 - Integrated Tavily web search and AI image generation, hardened against XSS, all in one portable HTML file
 
 **Tech:** HTML/CSS/JavaScript, Groq API, OpenRouter, Cerebras, Tavily Search API
+
+---
+
+### [🏪 Lead-Gen Website Demos](https://jasper-0918.github.io/demos/clinic/) — small-business sites built to convert
+> *Three vertical demo sites — dental clinic, real estate, home services — each with its own complete
+> design system and a lead-qualifying form. Work samples for my web design + lead-response service.*
+
+- Three distinct design systems, hand-built in a single file each: no frameworks, no stock photos, all SVG illustration
+- Lead-machine patterns throughout: reply-time promises, qualifying forms (service, budget, urgency), call CTAs
+- Live: [Dental Clinic](https://jasper-0918.github.io/demos/clinic/) · [Real Estate](https://jasper-0918.github.io/demos/realestate/) · [Home Services](https://jasper-0918.github.io/demos/homeservices/)
+
+**Tech:** HTML/CSS/JS, design systems, SVG illustration, conversion copywriting *(source private)*
 
 ---
 

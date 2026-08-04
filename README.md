@@ -68,6 +68,20 @@ and agentic / AI engineering roles.
 
 ---
 
+### ⚙️ Workflow Automation Stack — Self-Hosted n8n + Make
+> *I run my own n8n rather than renting one, and I deploy to it through its REST API, so a workflow
+> is a reviewable file instead of something someone clicked together and can't reproduce.*
+
+- **Self-hosted n8n in Docker** — community edition, data persisting in a named volume, no per-task pricing and no vendor holding the automations
+- **Workflows deployed over the REST API** — authored as JSON, then created, patched, activated and audited programmatically, which makes them diffable and repeatable
+- **Credentials attached at push time** from a node-to-credential map, because n8n's export omits credentials entirely and a naive push silently strips them off every node
+- **An error workflow on everything** — any failure emails the workflow, the failed node, and a link to that exact execution; silent failure is the thing I design against
+- **Make scenario for lead routing** — a webhook receives an enquiry, branches on the answers, and fans out to Google Sheets, Slack, and an Airtable base whose formula field scores the lead on arrival
+
+**Tech:** n8n (self-hosted), Docker, Make, REST API deployment, webhooks, Airtable, Google Sheets, Slack
+
+---
+
 ### [🎮 RoScript AI Pro](https://github.com/jasper-0918/RoScript-Pro) — Multi-Provider AI Coding Agent
 > *A single-file, zero-backend AI coding assistant for game developers, engineered for reliability
 > across multiple LLM providers.*

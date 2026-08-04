@@ -19,6 +19,7 @@ prompt-and-pray.
 
 ## 🤖 What I Build
 
+- **Multi-Agent Systems** — a planner that decomposes one directive into a dependency graph, workers that claim it under lease, and safety properties enforced as preconditions in code rather than requested in a prompt
 - **AI Agents & Autonomous Workflows** — agents that scrape, reason, decide, and act end-to-end, with tiered human-in-the-loop control
 - **Multi-Provider LLM Systems** — routing, failover, and key rotation across Groq, Claude, OpenAI, OpenRouter, and Cerebras for reliability and cost control
 - **RAG & Local AI** — private, on-device assistants (Ollama, ChromaDB) that keep data on the client's own machine
@@ -40,7 +41,34 @@ and agentic / AI engineering roles.
 
 ## 🚀 Featured Projects
 
-### [⭐ RoScript AI Pro](https://github.com/jasper-0918/RoScript-Pro) — Multi-Provider AI Coding Agent
+### [⭐ agent-os](https://github.com/jasper-0918/agent-os) — Local Multi-Agent Team with Enforced Guardrails
+> *You give one directive. A manager agent modelled on you turns it into a dependency graph of tasks
+> and hands them to ten specialist workers. Runs fully offline, at zero cost, on your own machine.*
+
+- **Plans, then executes** — one directive becomes a validated task graph with cycle detection and a closed set of ten worker roles; an illegal plan is rejected by code, not talked out of it by a prompt
+- **Survives a crash** — the SQLite queue hands out work under lease, so a killed worker's task returns to the queue instead of vanishing
+- **Fails closed on private data** — anything marked personal is pinned to a local model, and an egress tripwire inspects the outgoing bytes before any request leaves the machine
+- **One live truth per subject**, enforced by a partial unique index, so the model of you never holds two contradictory beliefs at once
+- **55 offline tests**, each written against a bug reproduced first, including a queue deadlock that reported itself as idle
+
+**Tech:** Python, SQLite, FastAPI, Ollama, multi-provider LLM routing, capability policy + egress guardrails
+
+---
+
+### [💬 AI DM Setter](https://github.com/jasper-0918/ai-dm-setter) — Multi-Tenant Lead Qualification & Booking
+> *Qualifies inbound leads in a chat window and books the call inside the conversation, no calendar
+> link. One workflow serves any number of businesses.*
+
+- **Multi-tenant by design** — each client's persona, offer, and pricing is a database row, so onboarding the next business is an insert, not a copied workflow
+- **The model returns state, not prose** — every reply satisfies a `{ reply, booked, slot }` contract, so booking detection is a code path rather than an interpretation
+- **A deterministic fallback covers model failure** — if the provider errors or garbles its output, a rules-based reply still goes out; a lead is never left on read
+- **Tenant isolation is enforced, not assumed** — history is read on `client_id` AND `user_id`, so two businesses can't see each other's threads even when the same person messages both
+
+**Tech:** n8n (self-hosted), Postgres, LLM APIs, webhooks, REST API-driven workflow deployment
+
+---
+
+### [🎮 RoScript AI Pro](https://github.com/jasper-0918/RoScript-Pro) — Multi-Provider AI Coding Agent
 > *A single-file, zero-backend AI coding assistant for game developers, engineered for reliability
 > across multiple LLM providers.*
 
@@ -119,9 +147,9 @@ and agentic / AI engineering roles.
 
 | Category | Tools |
 |---|---|
-| **Agentic AI & LLM** | Tool-calling agents, multi-provider routing (Groq, Claude, OpenAI, OpenRouter, Cerebras), RAG (ChromaDB), prompt engineering, local LLM deployment (Ollama) |
+| **Agentic AI & LLM** | Multi-agent orchestration (framework-free), tool-calling agents, multi-provider routing (Groq, Claude, OpenAI, OpenRouter, Cerebras), RAG (ChromaDB), prompt engineering, local LLM deployment (Ollama) |
 | **ML & Edge AI** | TensorFlow, TensorFlow Lite, Edge Impulse, HuggingFace Transformers, OpenCV, on-device inference |
-| **Backend & Automation** | FastAPI, REST APIs, Playwright, web scraping, email automation (SMTP/IMAP), task scheduling |
+| **Backend & Automation** | FastAPI, REST APIs, webhooks, n8n (self-hosted), Make, Playwright, web scraping, email automation (SMTP/IMAP), task scheduling |
 | **Languages** | Python, C, C++, C#, JavaScript, Assembly, SQL |
 | **Data & Infra** | SQLite, MySQL, pandas, numpy, Git & GitHub, Linux, Raspberry Pi |
 

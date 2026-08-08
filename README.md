@@ -48,6 +48,21 @@ development roles, and for consulting engagements.
 
 ## 🚀 Featured Projects
 
+### [🛡️ Prompt Sentinel](https://github.com/jasper-0918/prompt-sentinel) — Explainable Prompt-Injection Detection · [**Try it live →**](https://prompt-sentinel-five.vercel.app)
+> *Inspects text heading for an LLM and returns a verdict you can argue with. Prompt injection is
+> the top entry in the OWASP Top 10 for LLM Applications, and it is unsolved.*
+
+- **Publishes the number that does not flatter it** — 1.000 F1 on the corpus it was tuned against, and **0.350 recall on a held-out set it has never seen**. The README leads with the second, because a perfect score on your own test data measures fit, not capability
+- **Every verdict carries its evidence** — the detectors that fired and the exact text they matched, highlighted in place, so a decision can be reviewed rather than trusted
+- **Survives obfuscation** — a normalization pass folds leetspeak, homoglyphs, zero-width characters, separator padding and letter spacing back to canonical text before matching
+- **Written twice and kept honest** — the guard exists in Python and TypeScript, and a parity test runs the same corpora through both in CI asserting identical metrics, so duplication is verified agreement rather than drift
+- **The demo's privacy claim is measured** — it runs fully client-side, and typing produces zero network requests after load
+- **Names its own blind spots** — paraphrase, non-English and social-engineering attacks get through, and the README says so
+
+**Tech:** Python, TypeScript, Next.js, React, Tailwind, pytest + Vitest, GitHub Actions, OWASP LLM Top 10
+
+---
+
 ### [💬 AI DM Setter](https://github.com/jasper-0918/ai-dm-setter) — Multi-Tenant Lead Qualification & Booking
 > *Qualifies inbound leads in a chat window and books the call inside the conversation, no calendar
 > link. One workflow serves any number of businesses.*
@@ -173,7 +188,9 @@ development roles, and for consulting engagements.
 | **AI Development** | Multi-agent orchestration (framework-free), tool-calling agents, multi-provider routing (Groq, Claude, OpenRouter, Cerebras), failover and key rotation, RAG (ChromaDB), prompt engineering, local LLM deployment (Ollama) |
 | **ML & Edge AI** | TensorFlow, TensorFlow Lite, Edge Impulse, HuggingFace Transformers, OpenCV, on-device inference |
 | **Backend & Data** | Python, FastAPI, REST APIs, SQLite, MySQL, pandas, numpy |
-| **Languages & Tooling** | Python, C, C++, C#, JavaScript, Assembly, SQL, Git & GitHub, Docker, Linux, Raspberry Pi |
+| **LLM Security** | OWASP Top 10 for LLM Applications, prompt-injection and jailbreak detection, evaluation harnesses (precision/recall/F1/FPR), SSRF and egress controls, guardrails enforced in code |
+| **Web & Frontend** | TypeScript, React, Next.js (App Router), Tailwind, Vitest, Vercel, hand-written HTML/CSS/JS single-file apps |
+| **Languages & Tooling** | Python, C, C++, C#, JavaScript, TypeScript, Assembly, SQL, Git & GitHub, Docker, Linux, Raspberry Pi |
 
 ---
 

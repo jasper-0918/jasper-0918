@@ -27,6 +27,7 @@ prompt-and-pray.
 
 - **AI Automation** — webhook in, decision in the middle, the right rows written and the right people notified, running on a schedule nobody has to remember
 - **No-Code & Workflow Platforms** — n8n, Make, Airtable, Google Sheets and Slack, built so your team can open the canvas and read what it does rather than take my word for it
+- **CRM Automation** — HubSpot driven through its API from n8n and Python: lead intake, contact upserts and deal updates, timeline logging, stage logic and follow-up sequences, built to run on the free tier, where the platform gates automation behind paid plans. Zoho CRM is next, same approach
 - **AI Development** — tool-calling agents, multi-provider LLM routing with failover, RAG over your own documents, and local models, written in Python
 - **Multi-Agent Systems** — a planner that decomposes one directive into a dependency graph, workers that claim it under lease, and safety properties enforced as preconditions in code rather than requested in a prompt
 - **Private & Local AI** — on-device assistants (Ollama, ChromaDB) that keep data on the client's own machine, with no subscription and no third party in the loop
@@ -185,6 +186,7 @@ development roles, and for consulting engagements.
 |---|---|
 | **AI Automation** | n8n (self-hosted), Make, webhooks, REST API deployment, error workflows and retries, scheduling, Playwright, web scraping, email automation (SMTP/IMAP) |
 | **No-Code & Workflow Platforms** | n8n, Make, Airtable, Google Sheets, Slack, visual workflow design meant to be read by the team that inherits it |
+| **CRM** | HubSpot (contacts, deals, pipelines and stages, custom properties, forms, timeline events, tasks, private apps, rate-limit handling), Zoho CRM (Free-edition org set up; nothing built yet) |
 | **AI Development** | Multi-agent orchestration (framework-free), tool-calling agents, multi-provider routing (Groq, Claude, OpenRouter, Cerebras), failover and key rotation, RAG (ChromaDB), prompt engineering, local LLM deployment (Ollama) |
 | **ML & Edge AI** | TensorFlow, TensorFlow Lite, Edge Impulse, HuggingFace Transformers, OpenCV, on-device inference |
 | **Backend & Data** | Python, FastAPI, REST APIs, SQLite, MySQL, pandas, numpy |
@@ -197,10 +199,17 @@ development roles, and for consulting engagements.
 ## 🎓 Background
 
 Computer Engineering graduate with a software development internship at **Benpos Systems** (system
-maintenance, defect resolution, client deployments), and a growing portfolio of AI automation and
-agent systems. Certified in cybersecurity through **Google Cloud** and **Cisco**, a
-security-conscious foundation for the private, local-first AI I build. I build things that run in
-production, not demos.
+maintenance, defect resolution, client deployments), CRM automation work delivered to and accepted by a
+US manufacturer, and a growing portfolio of AI automation and agent systems. Certified in cybersecurity through
+**Google Cloud** and **Cisco**, a security-conscious foundation for the private, local-first AI I build.
+
+**Certifications** (the Google Cloud and Cisco badges [verify on Credly](https://www.credly.com/users/jasper-john-paitan))
+
+- **HubSpot Inbound Certified**, HubSpot Academy (Sep 2026, valid to Oct 2028)
+- **Google Cloud Cybersecurity Certificate**, Google Cloud (Feb 2026)
+- **Cisco Networking Academy**: Junior Cybersecurity Analyst Career Path, Ethical Hacker, Python Essentials 1 and 2, Network Defense, Endpoint Security, Cyber Threat Management, Introduction to Cybersecurity, Introduction to Modern AI, and the four-badge networking fundamentals series (Feb to Mar 2026, 13 badges)
+- **Simplilearn SkillUp**: Machine Learning Using Python, Ethical Hacking 101, Introduction to Cyber Security, Introduction to Cybercrime, Introduction to Kali Linux Basics (Mar 2026)
+- **TESDA** Machining NC II (2021)
 
 ---
 

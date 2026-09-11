@@ -206,6 +206,7 @@ US manufacturer, and a growing portfolio of AI automation and agent systems. Cer
 **Certifications** (the Google Cloud and Cisco badges [verify on Credly](https://www.credly.com/users/jasper-john-paitan))
 
 - **HubSpot Inbound Certified**, HubSpot Academy (Sep 2026, valid to Oct 2028)
+- **HubSpot Email Marketing Certified**, HubSpot Academy (Sep 2026, valid to Oct 2028)
 - **Google Cloud Cybersecurity Certificate**, Google Cloud (Feb 2026)
 - **Cisco Networking Academy**: Junior Cybersecurity Analyst Career Path, Ethical Hacker, Python Essentials 1 and 2, Network Defense, Endpoint Security, Cyber Threat Management, Introduction to Cybersecurity, Introduction to Modern AI, and the four-badge networking fundamentals series (Feb to Mar 2026, 13 badges)
 - **Simplilearn SkillUp**: Machine Learning Using Python, Ethical Hacking 101, Introduction to Cyber Security, Introduction to Cybercrime, Introduction to Kali Linux Basics (Mar 2026)

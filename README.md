@@ -105,6 +105,19 @@ development roles, and for consulting engagements.
 
 ---
 
+### [🗂️ Recruitment Pipeline Sync](https://github.com/jasper-0918/recruitment-pipeline-sync) — Relational Airtable Base + n8n Dedup Import
+> *A seven-table Airtable base for a staffing pipeline, kept in sync with a public jobs API by an n8n
+> workflow that never creates a duplicate.*
+
+- **One schema file drives both systems** — table, field and workflow node names come from a single source, so the Airtable base and the n8n workflow can't drift apart
+- **Dedup happens in code, not in Airtable** — the workflow reads every existing record once, keys on the source's own id, and a second run against the same listings creates zero duplicates, proven against real runs, not assumed
+- **A real failure path, proven, not just handled in theory** — pointing the fetch at a dead host produces a logged failure row and an execution n8n marks failed, read back through the API afterward
+- **Includes the Postgres migration** — a full relational schema with the unique constraints Airtable itself can't enforce (one placement per opening), for when the base outgrows Airtable's row limits
+
+**Tech:** Airtable (Metadata + Records API), n8n (self-hosted), Python, PostgreSQL/Supabase schema design
+
+---
+
 ### [🤖 Autonomous Job-Hunting Agent](https://github.com/jasper-0918/job-bot) — cut search from 2–4 hrs to under 10 min
 > *An end-to-end agent that scrapes, screens, applies, and monitors replies, with a human kept in control.*
 

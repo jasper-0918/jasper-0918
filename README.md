@@ -105,6 +105,19 @@ development roles, and for consulting engagements.
 
 ---
 
+### [📨 Chase Ladder](https://github.com/jasper-0918/chase-ladder) — Quote Follow-Up the Free CRM Tier Won't Do
+> *Chases every quote a business sent and never heard back on, and stops the moment the customer
+> replies. Run end to end against a live HubSpot portal.*
+
+- **At most one chase per quote and per step, ever** — the send is claimed in SQLite under `BEGIN IMMEDIATE` before the email leaves, so a second run adds zero rows, and a crash between the two is reported as unresolved rather than quietly retried at the customer
+- **Stops on a reply without a lookup table** — each chase carries a plus-addressed reply-to, so the deal id travels in the envelope and comes back with the answer. On the live run, the one customer who replied received exactly one chase and nothing after it
+- **263 tests, and the honest part: the first live run found three bugs they missed** — a reserved-domain address HubSpot refuses outright, a list endpoint that caps at 100 where search allows 200, and a stage lookup that answered `None` until something else loaded the pipeline, which would have chased nobody and reported a clean zero. All three sat where the tests replaced HubSpot with a fake
+- **The undo was built before the do** — one command seeds a 24-deal demo board into a real portal, another takes back exactly what it wrote and nothing else, matched on two marks it set itself
+
+**Tech:** Python, HubSpot CRM API, SQLite, SMTP, pytest, Docker, YAML
+
+---
+
 ### [🗂️ Recruitment Pipeline Sync](https://github.com/jasper-0918/recruitment-pipeline-sync) — Relational Airtable Base + n8n Dedup Import
 > *A seven-table Airtable base for a staffing pipeline, kept in sync with a public jobs API by an n8n
 > workflow that never creates a duplicate.*

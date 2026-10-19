@@ -1,5 +1,5 @@
 # Hi, I'm Jasper John Paitan 👋
-### AI Automation Specialist & AI Developer · Computer Engineer who ships systems that run
+### AI Automation Specialist & Agentic Engineer · Computer Engineer who ships systems that run
 
 I build **AI automation**: the systems that take a workflow somebody is doing by hand every day and
 turn it into software that runs on its own. Most of it lives in **no-code and low-code platforms**,
@@ -10,6 +10,11 @@ instance**, author workflows as JSON and deploy them through n8n's own REST API,
 Where a platform runs out of room, I keep going. The **AI development** side is mine too:
 tool-calling agents, multi-provider LLM routing with failover, RAG, and local on-device models,
 written in Python rather than assembled from a template.
+
+I build in **Claude Code** every day and pair it with **Codex**: one writes the brief, the other
+builds, and the first checks the result. For a Canadian law firm that meant bots writing into
+**Clio Manage**: they read the PDFs staff send a **Microsoft Teams** bot account and the new mail in a
+shared inbox, record the work in Clio, and message the right people in Teams.
 
 **My edge:** a real engineering foundation, a Computer Engineering degree and systems work from
 Python to embedded C, so what I hand over is debugged, secured, and maintainable, not
@@ -28,6 +33,7 @@ prompt-and-pray.
 - **AI Automation** — webhook in, decision in the middle, the right rows written and the right people notified, running on a schedule nobody has to remember
 - **No-Code & Workflow Platforms** — n8n, Make, Airtable, Google Sheets and Slack, built so your team can open the canvas and read what it does rather than take my word for it
 - **CRM Automation** — HubSpot driven through its API from n8n and Python: lead intake, contact upserts and deal updates, timeline logging, stage logic and follow-up sequences, built to run on the free tier, where the platform gates automation behind paid plans. Zoho CRM is next, same approach
+- **Law-Firm Workflows** — bots that write into Clio Manage through its API, fed by a Microsoft Teams bot account and a shared inbox, with SharePoint for shared records and Teams messages to the staff who need to act
 - **AI Development** — tool-calling agents, multi-provider LLM routing with failover, RAG over your own documents, and local models, written in Python
 - **Multi-Agent Systems** — a planner that decomposes one directive into a dependency graph, workers that claim it under lease, and safety properties enforced as preconditions in code rather than requested in a prompt
 - **Private & Local AI** — on-device assistants (Ollama, ChromaDB) that keep data on the client's own machine, with no subscription and no third party in the loop
@@ -210,10 +216,10 @@ development roles, and for consulting engagements.
 
 | Category | Tools |
 |---|---|
-| **AI Automation** | n8n (self-hosted), Make, webhooks, REST API deployment, error workflows and retries, scheduling, Playwright, web scraping, email automation (SMTP/IMAP) |
+| **AI Automation** | n8n (self-hosted), Make, webhooks, REST API deployment, error workflows and retries, scheduling, Playwright, web scraping, email automation (SMTP/IMAP), Clio Manage API, Microsoft Teams bot accounts, SharePoint, shared-inbox triggers, AI receptionist QA (RingCentral), WordPress operator workflow audits |
 | **No-Code & Workflow Platforms** | n8n, Make, Airtable, Google Sheets, Slack, visual workflow design meant to be read by the team that inherits it |
 | **CRM** | HubSpot (contacts, deals, pipelines and stages, custom properties, forms, timeline events, tasks, private apps, rate-limit handling), Zoho CRM (Free-edition org set up; nothing built yet) |
-| **AI Development** | Multi-agent orchestration (framework-free), tool-calling agents, multi-provider routing (Groq, Claude, OpenRouter, Cerebras), failover and key rotation, RAG (ChromaDB), prompt engineering, local LLM deployment (Ollama) |
+| **AI Development** | Agentic coding with Claude Code and Codex, multi-agent orchestration (framework-free), tool-calling agents, multi-provider routing (Groq, Claude, OpenRouter, Cerebras), failover and key rotation, RAG (ChromaDB), prompt engineering, local LLM deployment (Ollama) |
 | **ML & Edge AI** | TensorFlow, TensorFlow Lite, Edge Impulse, HuggingFace Transformers, OpenCV, on-device inference |
 | **Backend & Data** | Python, FastAPI, REST APIs, SQLite, MySQL, pandas, numpy |
 | **LLM Security** | OWASP Top 10 for LLM Applications, prompt-injection and jailbreak detection, evaluation harnesses (precision/recall/F1/FPR), SSRF and egress controls, guardrails enforced in code |

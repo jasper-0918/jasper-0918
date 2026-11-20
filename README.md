@@ -69,7 +69,7 @@ Clients under NDA, so by client type only.
 
 ## 🚀 Featured Projects
 
-### [🛡️ Prompt Sentinel](https://github.com/jasper-0918/prompt-sentinel) — Explainable Prompt-Injection Detection · [**Try it live →**](https://prompt-sentinel-five.vercel.app)
+### [🛡️ Prompt Sentinel](https://github.com/jasper-0918/prompt-sentinel) — Explainable Prompt-Injection Detection · [**Try it live →**](https://jasper-0918.github.io/prompt-sentinel/)
 > *Inspects text heading for an LLM and returns a verdict you can argue with. Prompt injection is
 > the top entry in the OWASP Top 10 for LLM Applications, and it is unsolved.*
 

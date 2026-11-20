@@ -12,9 +12,9 @@ tool-calling agents, multi-provider LLM routing with failover, RAG, and local on
 written in Python rather than assembled from a template.
 
 I build in **Claude Code** every day and pair it with **Codex**: one writes the brief, the other
-builds, and the first checks the result. For a Canadian law firm that meant bots writing into
-**Clio Manage**: they read the PDFs staff send a **Microsoft Teams** bot account and the new mail in a
-shared inbox, record the work in Clio, and message the right people in Teams.
+builds, and the first checks the result. For a Canadian law firm that meant **Clio** developer apps
+run from n8n: docket entries made from **Microsoft Teams** call transcripts, a legal aid billing bot,
+a file sweep, and a matter opener that read Outlook.
 
 **My edge:** a real engineering foundation, a Computer Engineering degree and systems work from
 Python to embedded C, so what I hand over is debugged, secured, and maintainable, not
@@ -33,7 +33,8 @@ prompt-and-pray.
 - **AI Automation** — webhook in, decision in the middle, the right rows written and the right people notified, running on a schedule nobody has to remember
 - **No-Code & Workflow Platforms** — n8n, Make, Airtable, Google Sheets and Slack, built so your team can open the canvas and read what it does rather than take my word for it
 - **CRM Automation** — HubSpot driven through its API from n8n and Python: lead intake, contact upserts and deal updates, timeline logging, stage logic and follow-up sequences, built to run on the free tier, where the platform gates automation behind paid plans. Zoho CRM is next, same approach
-- **Law-Firm Workflows** — bots that write into Clio Manage through its API, fed by a Microsoft Teams bot account and a shared inbox, with SharePoint for shared records and Teams messages to the staff who need to act
+- **Law-Firm Workflows** — Clio developer apps run from n8n: docket entries from Teams call transcripts, legal aid billing, file sweeps and matter opening from Outlook, with bots reporting into Teams channels and files kept in SharePoint
+- **Lead Pipelines and Call Centres** — Meta ads leads into Monday.com, CloudTalk AI dialer campaigns, intake reports written through the OpenAI API, and Slack reporting bots
 - **AI Development** — tool-calling agents, multi-provider LLM routing with failover, RAG over your own documents, and local models, written in Python
 - **Multi-Agent Systems** — a planner that decomposes one directive into a dependency graph, workers that claim it under lease, and safety properties enforced as preconditions in code rather than requested in a prompt
 - **Private & Local AI** — on-device assistants (Ollama, ChromaDB) that keep data on the client's own machine, with no subscription and no third party in the loop
@@ -50,6 +51,19 @@ development roles, and for consulting engagements.
 - Add an AI layer (chat, RAG, classification, routing) to an existing product or ops stack
 - Stand up a private, local LLM setup so sensitive data never leaves your infrastructure
 - Build your small business a **premium website wired for lead response** — form to instant reply to follow-up, so no inquiry goes cold
+
+---
+
+## 🤝 Client Work
+
+Clients under NDA, so by client type only.
+
+- **UK benefits claim company** — built the lead pipeline in n8n: Meta ads leads into a Monday.com master database with a sub-database per stage, then CloudTalk AI dialer campaigns for callers and closers. Call transcripts became intake reports written by a custom GPT prompt through the OpenAI API and reviewed by staff, posted in Slack, linked in Monday.com and saved as PDFs in Google Drive. When the n8n plan hit its execution limit, I moved the busiest steps into local scripts.
+- **Canadian law firm** — Clio developer apps connected to n8n: docket entries from Teams call transcripts, a legal aid billing bot, a file sweep in Clio, and a matter opener that read Outlook emails and opened matters. The bots reported into Microsoft Teams channels and kept files in SharePoint.
+- **Australian sports business** — a Lovable dashboard on Supabase that brought emails, Facebook page replies and Jotform submissions into one place, where staff reviewed AI email drafts and pressed send, plus a Meta app that drafted replies to Facebook and Instagram messages for staff to paste.
+- **US web company** — as automation engineer, used AI agents to cut WordPress site production time at the same or better quality, proving each change through tests on WordPress with Claude Code and Codex.
+- **US sports platform startup** — fixed errors on the founder's dashboard from a written estimate and plan, each change shipped as a GitHub pull request the founder reviewed first.
+- **US manufacturer** — an n8n intake automation that emails each lead and creates or updates the HubSpot contact. First milestone accepted and paid.
 
 ---
 
